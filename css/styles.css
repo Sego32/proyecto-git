@@ -1,0 +1,50 @@
+h1 {
+  color: #355070;
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+  background-color: #e56b6f;
+  font-family: "Crimson Text";
+}
+
+main {
+  background-color: #ffffff;
+}
+main aside {
+  min-width: 30%;
+  margin: 40px 20px 20px;
+  height: 80%;
+  background: #eaac8b;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #355070;
+}
+
+ul {
+  font-size: 22px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #b56576;
+  color: #00377a;
+  padding: 10px;
+}
+footer ul {
+  list-style: none;
+}
+
+p {
+  font-size: 21px;
+}
+
+/*# sourceMappingURL=styles.css.map */
