@@ -3,36 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar {
-	background: #1d2d44;
+    background: #1d2d44;
     position: sticky;
     top: 0;
 }
 
 .navbar a {
-	color: rgb(255, 255, 255);
-	display: inline-block;
-	padding: 20px;
-	width: 100%;
-	text-align: center;
-	color: #3e5c76;
-	transition: .3s ease-out all;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #3e5c76;
+    transition: .3s ease-out all;
     text-decoration: none;
     font-size: 20px;
 }
 
 .navbar a:hover {
-	background: #3e5c76;
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .contenedor {
-	max-width: 1000px;
-	width: 90%;
-	margin: auto;
-	display: flex;
-	justify-content: space-between;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .titulos_subtitulos {
@@ -41,7 +41,7 @@
 
 h1 {
     color: #0d1321;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
 }
 
@@ -59,9 +59,11 @@ body {
     color: #f0ebd8;
     font-weight: 900;
 }
+
 main {
     min-height: 100vh;
-    background-color: #f0ebd8;
+    background-color: #ffffff;
+
     aside {
         min-width: 30%;
         margin: 40px 20px 20px;
@@ -70,6 +72,39 @@ main {
         padding: 20px;
         border-radius: 3px;
     }
+}
+
+.main_contact {
+    background-color: #0d1321;
+
+}
+
+.botones_animados {
+    display: inline-flex;
+    width: 150px;
+    height: 60px;
+    background-color: #355070;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 5px;
+}
+.botones_animados:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+label{
+    font-size: 40px;
+    color: #355070;
+}
+
+.titulo_contact {
+    color: #f0ebd8;
 }
 
 h2 {
@@ -91,7 +126,8 @@ nav {
         list-style: none;
     }
 }
-.categorias{
+
+.categorias {
     list-style: none;
 }
 

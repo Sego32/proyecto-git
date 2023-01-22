@@ -23,7 +23,6 @@
 }
 
 .navbar a:hover {
-  background: #3e5c76;
   color: #fff;
   text-decoration: none;
 }
@@ -42,7 +41,7 @@
 
 h1 {
   color: #0d1321;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 900;
 }
 
@@ -63,7 +62,7 @@ body {
 
 main {
   min-height: 100vh;
-  background-color: #f0ebd8;
+  background-color: #ffffff;
 }
 main aside {
   min-width: 30%;
@@ -72,6 +71,40 @@ main aside {
   background: #f0ebd8;
   padding: 20px;
   border-radius: 3px;
+}
+
+.main_contact {
+  background-color: #0d1321;
+}
+
+.botones_animados {
+  display: inline-flex;
+  width: 150px;
+  height: 60px;
+  background-color: #355070;
+  color: #ffffff;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+}
+
+.botones_animados:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+label {
+  font-size: 40px;
+  color: #355070;
+}
+
+.titulo_contact {
+  color: #f0ebd8;
 }
 
 h2 {
